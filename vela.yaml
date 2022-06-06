@@ -1,0 +1,7 @@
+createTime: "0001-01-01T00:00:00Z"
+name: test-vela
+services:
+  vela-test:
+    image: nginx
+    type: webservice
+updateTime: "0001-01-01T00:00:00Z"
