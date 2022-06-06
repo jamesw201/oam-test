@@ -12,17 +12,17 @@ spec:
       - sleep
       - "1000000"
 
-  - name: frontend
-    type: frontend
-    properties:
-      name: frontend
-      image: vfarcic/devops-toolkit-series
-    traits:
-    - type: autoscaler
-      properties:
-        min: 3
-    - type: ingress
-      properties:
-        domain: localhost
-        http:
-          "/": 80
+#   - name: frontend
+#     type: frontend
+#     properties:
+#       name: frontend
+#       image: vfarcic/devops-toolkit-series
+#     traits:
+#     - type: autoscaler
+#       properties:
+#         min: 3
+#     - type: ingress
+#       properties:
+#         domain: localhost
+#         http:
+#           "/": 80
